@@ -1,7 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     color: var(--navy-blue);
-    background-color:var(--snow-white);
+    background-color:greenyellow;
 }
 
  :root{
@@ -53,6 +53,7 @@ body{
 
 .header{
     height: 72px;
+    background-color: var(--snow-white);
 }
 
 .link-logo{
@@ -60,7 +61,7 @@ body{
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    display: flex;
+    display: flex; 
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -70,7 +71,7 @@ body{
     margin-top: 24px;
     margin-bottom: 24px;
     margin-right: 78px;
-    background-color: green;
+
 }
 
 .link-logo span{
@@ -94,7 +95,7 @@ body{
     margin-top: 24px;
     margin-bottom: 24px;
     margin-right: 332px;
-    background-color: red;
+
 }
 
 .list{
@@ -143,7 +144,6 @@ list-style: none;
     background-color: palevioletred;
     margin-top: 24px;
     margin-bottom: 24px;
-    margin-right: 156px;
 }
 
 .site-link:hover,
@@ -161,9 +161,10 @@ list-style: none;
 }
 .section-one {
     background-color: var(--navy-blue);
+    /*
     width: 1440px;
+    */
     height: 600px;
-
 }
 
 .hero-title {
@@ -174,7 +175,7 @@ list-style: none;
     letter-spacing: 0.02em;
     color: var(--snow-white);
 
-    padding: 188px 473px 48px 473px;
+    padding: 188px 317px 48px 317px;
 }
 
 .button-service {
@@ -192,7 +193,7 @@ list-style: none;
     border-radius: 4px;
 
     padding: 16px 32px;
-    margin: 0 635px 188px 646px;
+    margin: 0 auto 188px auto;
 
 }
 
