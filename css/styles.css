@@ -68,9 +68,9 @@ body{
     color: var(--navy-blue);
     text-decoration: none;
 
-    margin-top: 24px;
-    margin-bottom: 24px;
-    margin-right: 78px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 76px;
 
 }
 
@@ -89,13 +89,17 @@ body{
 
 .position {
     display:flex;
+
+}
+
+.position-contacts {
+    display: flex;
+    margin-left: auto;
 }
 
 .site-position{
-    margin-top: 24px;
-    margin-bottom: 24px;
-    margin-right: 332px;
-
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .list{
@@ -115,6 +119,7 @@ body{
     letter-spacing: 0.02em;
     color: var(--navy-blue);
     text-decoration: none;
+
 }
 
 
@@ -136,16 +141,15 @@ body{
 }
 
 .mail-position{
-
-    margin-top: 24px;
-    margin-bottom: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     margin-right: 40px;
 }
 
 .tell-position {
 
-    margin-top: 24px;
-    margin-bottom: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .site-link:hover,
@@ -159,16 +163,13 @@ body{
 /*MAIN*/
 
 .section {
-    padding:60px 0;
+    padding:120px 0;
 
 }
 .section-one {
     background-color: var(--navy-blue);
-    /*
-    width: 1440px;
-    */
     height: 600px;
-    margin-bottom: 60px;
+    padding: 188px 0;
 }
 
 .hero-title {
@@ -179,7 +180,8 @@ body{
     letter-spacing: 0.02em;
     color: var(--snow-white);
 
-    padding: 188px 317px 48px 317px;
+    max-width: 494px;
+    margin: 0 auto 48px;
 }
 
 .button-service {
@@ -195,9 +197,10 @@ body{
     background-color: var(--iris);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: none;
 
     padding: 16px 32px;
-    margin: 0 auto 188px auto;
+    margin: 0 auto;
 
 }
 
@@ -206,10 +209,12 @@ body{
     cursor: pointer;
 } 
 
+.section-work{
+    padding-bottom: 120px;
+}
 
 .section-three{
     background-color: var(--cloud);
-    margin-top: 60px;
     padding-bottom: 120px;
 }
 
@@ -221,13 +226,12 @@ body{
     letter-spacing: 0.02em;
     text-transform: capitalize;
 
-    margin-top: 60px;
     margin-bottom: 72px;
 
 }
 
 .piсture-position{
-    padding: 0 24px;
+    margin: 0 24px;
 }
 
 .team-list{
@@ -242,13 +246,17 @@ body{
 
 .heading-position{
     padding: 32px 16px;
-
+    align-items: center;
 }
 
 .heading-position h3{
-    margin-top: 0;
-    margin-bottom: 8px;
+    margin-bottom:8px;
+    text-align: center;
 
+}
+
+.heading-position p {
+    text-align: center;
 }
 
 .heading-three{
@@ -256,6 +264,7 @@ body{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--navy-blue);
 }
 
 .heading-three-position {
@@ -280,6 +289,7 @@ body{
 
 .footer {
     background-color: var(--navy-blue);
+    padding: 100px 0;
 }
 
 .footer-p {
@@ -289,7 +299,6 @@ body{
     color: var(--cornflower);
 
     max-width: 264px;
-    padding-bottom: 100px;
 }
 
 .link-logo-footer {
@@ -304,8 +313,7 @@ body{
     color: var(--cloud);
     text-decoration: none;
 
-    padding-top: 100px ;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .link-logo-footer span {
@@ -343,11 +351,15 @@ body{
 
 
 .btn-position{
-    margin: 96px 271px 72px;
-    justify-content: space-between;
+    margin-bottom: 72px;
+    justify-content: center;
+    grid-gap: 24px;
+
 }
 
 .btn-section{
+    padding: 96px 0 120px;
+
 }
 
 .btn:hover,
@@ -372,26 +384,22 @@ body{
 
 }
 .work-examples h2{
-    padding: 32px 0 8px 16px;
-}
-
-.work-examples p{
-    padding: 0 0 32px 16px;
+    margin-bottom: 8px;
 }
 
 .product-position{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    grid-gap: 48px 24px;
 }
 
 .product-list{
     list-style: none;
-    border: 1px solid var(--cornflower);
-    margin-bottom: 48px;
 }
 
-.product-list:nth-child(n + 7) {
-    margin-bottom: 120px;
-
+.product-description{
+    border-right: 1px solid var(--cornflower);
+    border-bottom: 1px solid var(--cornflower);
+    border-left: 1px solid var(--cornflower);
+    padding: 32px 0 32px 16px;
 }
